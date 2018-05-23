@@ -25,7 +25,7 @@ mojTV.powitanie()
 mojTV.wyswietlKanal()
 mojTV.listaKanalow()
 print('--')
-mojTV.ustawKanal(int(input('Jaki kanal wysietlic?')))
+mojTV.ustawKanal(int(input('Jaki kanal wysietlic?'))-1)
 print('--')
 mojTV.ustawionyKanal()
 
