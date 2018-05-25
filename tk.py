@@ -1,5 +1,8 @@
 from tkinter import *
-from tkinter import ttk
+
 root = Tk()
-ttk.Button(root, text="Hello World").grid()
+Button(root, text="Hello World").grid()
+
+Button(root, text="Hello World").place(x=40,y=40)
+
 root.mainloop()
